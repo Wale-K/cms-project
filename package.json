@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Wale-K/cms-project#readme",
   "devDependencies": {
+    "css-loader": "^6.4.0",
+    "style-loader": "^3.3.0",
     "webpack": "^5.55.1",
     "webpack-cli": "^4.8.0"
   },
