@@ -18,8 +18,16 @@
   },
   "homepage": "https://github.com/Wale-K/cms-project#readme",
   "devDependencies": {
-    "webpack": "^5.55.1",
-    "webpack-cli": "^4.8.0"
+    "css-loader": "^6.4.0",
+    "csv-loader": "^3.0.3",
+    "html-webpack-plugin": "^5.4.0",
+    "json5": "^2.2.0",
+    "style-loader": "^3.3.0",
+    "toml": "^3.0.0",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0",
+    "xml-loader": "^1.2.1",
+    "yamljs": "^0.3.0"
   },
   "dependencies": {
     "lodash": "^4.17.21"
