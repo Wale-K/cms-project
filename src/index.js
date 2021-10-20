@@ -14,9 +14,6 @@ function component() {
 
   element.appendChild(myIcon);
 
-  console.log(Data);
-  console.log(Notes);
-
   return element;
 }
 
