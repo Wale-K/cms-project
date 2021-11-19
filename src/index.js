@@ -2,6 +2,16 @@ import _ from "lodash";
 import "./style.css";
 import Icon from "./icon.png";
 import printMe from "./print.js";
+import React from "react";
+import ReactDOM from "react-dom";
+
+import App from "./App";
+
+const title = "React with Webpack and Babel";
+
+ReactDOM.render(<App title={title} />, document.getElementById("app"));
+
+module.hot.accept();
 
 function component() {
   const element = document.createElement("div");
