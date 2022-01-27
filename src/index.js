@@ -21,6 +21,8 @@ function component() {
 
   element.appendChild(myIcon);
 
+  const num = 1_000_000;
+
   return element;
 }
 
