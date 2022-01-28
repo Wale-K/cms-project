@@ -5,7 +5,11 @@ module.exports = {
   mode: "development", // prevents build error
   entry: {
     index: "./src/index.js",
-    print: "./src/print.js",
+  },
+  devtool: "inline-source-map",
+  devServer: {
+    static: "./dist",
+    hot: true,
   },
   output: {
     filename: "[name].bundle.js",
